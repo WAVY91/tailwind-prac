@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-blue-600 text-2xl font-bold flex items-center">
+                    WebDev
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-blue-600 transition duration-300 font-medium">Home</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-600 transition duration-300 font-medium">Services</a>
+                    <a href="#portfolio" class="text-gray-700 hover:text-blue-600 transition duration-300 font-medium">Portfolio</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 transition duration-300 font-medium">About</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition duration-300 font-medium">Contact</a>
+                </div>
+                
+                <div class="hidden md:block">
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg transition duration-300 shadow-md">
+                        Get a Quote
+                    </button>
+                </div>
+                
+                <div class="md:hidden">
+                    <button class="text-gray-700 hover:text-blue-600 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-24 pb-20 bg-gradient-to-r from-blue-600 to-purple-600">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col items-center justify-center text-center">
+                <div class="text-white mb-10">
+                    <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight pt-20">Build Your Dream Website Today</h1>
+                    <p class="text-xl mb-8 text-gray-100">Professional web development services that bring your ideas to life. Fast, modern, and responsive websites tailored to your needs.</p>
+                    <div class="flex space-x-4 justify-center">
+                        <button class="bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition duration-300 shadow-lg">
+                            Get Started
+                        </button>
+                        <button class="border-2 border-white text-white font-semibold py-3 px-8 rounded-lg hover:bg-white hover:text-blue-600 transition duration-300">
+                            View Work
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Our Services</h2>
+                <p class="text-xl text-gray-600">Everything you need to build a successful online presence</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg hover:shadow-xl transition duration-300 border border-gray-200">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Web Design</h3>
+                    <p class="text-gray-600 mb-4">Beautiful, modern designs that capture your brand and engage your audience.</p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>✓ Responsive Design</li>
+                        <li>✓ UI/UX Optimization</li>
+                        <li>✓ Brand Identity</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg hover:shadow-xl transition duration-300 border border-gray-200">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Web Development</h3>
+                    <p class="text-gray-600 mb-4">Custom web applications built with the latest technologies and best practices.</p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>✓ Frontend Development</li>
+                        <li>✓ Backend Solutions</li>
+                        <li>✓ API Integration</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-lg hover:shadow-xl transition duration-300 border border-gray-200">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">SEO & Performance</h3>
+                    <p class="text-gray-600 mb-4">Optimize your website for search engines and lightning-fast performance.</p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>✓ SEO Optimization</li>
+                        <li>✓ Performance Tuning</li>
+                        <li>✓ Analytics Setup</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Our Portfolio</h2>
+                <p class="text-xl text-gray-600">Recent projects we're proud of</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                    <div class="bg-gradient-to-r from-blue-400 to-blue-600 h-48 flex items-center justify-center">
+                        <span class="text-white text-6xl font-bold">A</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Artisan Connect Platform</h3>
+                        <p class="text-gray-600 mb-4">Modern online website where customers get linked with the artisan of their choice for the perfection of the work give to them.</p>
+                        <span class="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold">JavaScript</span>
+                        <span class="inline-block bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-semibold ml-2">Firebase</span>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                    <div class="bg-gradient-to-r from-purple-400 to-purple-600 h-48 flex items-center justify-center">
+                        <span class="text-white text-6xl font-bold">S</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">SheLeadAfrica Cloned Website</h3>
+                        <p class="text-gray-600 mb-4">Detailing website cloned just to serve as a replica of the website</p>
+                        <span class="inline-block bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-semibold">Html</span>
+                        <span class="inline-block bg-yellow-100 text-yellow-600 px-3 py-1 rounded-full text-sm font-semibold ml-2">Css</span>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
+                    <div class="bg-gradient-to-r from-green-400 to-green-600 h-48 flex items-center justify-center">
+                        <span class="text-white text-6xl font-bold">G</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Ngo / Donation Website</h3>
+                        <p class="text-gray-600 mb-4">Creative website where Ngo join with necessary documents to create a campaign and for the donor to also join to support for the campaign created.</p>
+                        <span class="inline-block bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-semibold">React</span>
+                        <span class="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-semibold ml-2">Node.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <div class="bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg p-12 text-white">
+                        <h3 class="text-3xl font-bold mb-4">2+ Years</h3>
+                        <p class="text-xl mb-6">of Excellence in Web Development</p>
+                        <div class="grid grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="text-4xl font-bold">4+</h4>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div>
+                                <h4 class="text-4xl font-bold">75%</h4>
+                                <p>Client Satisfaction</p>
+                            </div>
+                            <div>
+                                <h4 class="text-4xl font-bold">2+</h4>
+                                <p>Team Members</p>
+                            </div>
+                            <div>
+                                <h4 class="text-4xl font-bold">24/7</h4>
+                                <p>Support Available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">Why Choose Us?</h2>
+                    <p class="text-lg text-gray-600 mb-6">We're passionate about creating exceptional web experiences that drive results. Our team of expert developers and designers work together to bring your vision to life.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-green-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                            </svg>
+                            <div>
+                                <h4 class="font-bold text-gray-800 text-lg">Expert Team</h4>
+                                <p class="text-gray-600">Skilled professionals with years of industry experience</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-green-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                            </svg>
+                            <div>
+                                <h4 class="font-bold text-gray-800 text-lg">Modern Technologies</h4>
+                                <p class="text-gray-600">Using the latest frameworks and tools for optimal results</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-green-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                            </svg>
+                            <div>
+                                <h4 class="font-bold text-gray-800 text-lg">On-Time Delivery</h4>
+                                <p class="text-gray-600">We respect deadlines and deliver projects on schedule</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-gray-800 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Get In Touch</h2>
+                <p class="text-xl text-gray-300">Let's discuss your next project</p>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-8 mb-12">
+                    <div class="bg-gray-700 p-6 rounded-lg">
+                        <div class="flex items-center mb-4">
+                            <svg class="w-6 h-6 text-blue-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            </svg>
+                            <h3 class="text-xl font-bold">Email</h3>
+                        </div>
+                        <p class="text-gray-300">timetomisin@gmail.com</p>
+                    </div>
+                    <div class="bg-gray-700 p-6 rounded-lg">
+                        <div class="flex items-center mb-4">
+                            <svg class="w-6 h-6 text-blue-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            </svg>
+                            <h3 class="text-xl font-bold">Phone</h3>
+                        </div>
+                        <p class="text-gray-300">+234 (703) 969-2720</p>
+                    </div>
+                </div>
+                
+                <form class="bg-gray-700 p-8 rounded-lg">
+                    <div class="grid md:grid-cols-2 gap-6 mb-6">
+                        <input type="text" placeholder="Your Name" class="bg-gray-600 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <input type="email" placeholder="Your Email" class="bg-gray-600 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <input type="text" placeholder="Subject" class="w-full bg-gray-600 text-white px-4 py-3 rounded-lg mb-6 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <textarea placeholder="Your Message" rows="5" class="w-full bg-gray-600 text-white px-4 py-3 rounded-lg mb-6 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; 2026 WebDev. All rights reserved.</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-white transition duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="hover:text-white transition duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="hover:text-white transition duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
